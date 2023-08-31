@@ -216,7 +216,7 @@ func TestConfig_ConfigureProxy(t *testing.T) {
 		Port:          80,
 		Host:          "localhost",
 		Proxy: ConfigProxy{
-			Url:  "https://friendsofgo.tech",
+			Url:  "https://haton14.tech",
 			Mode: ProxyAll,
 		},
 	}
@@ -224,6 +224,6 @@ func TestConfig_ConfigureProxy(t *testing.T) {
 	got, err := NewConfig("imposters", "localhost", 80, false)
 	assert.NoError(t, err)
 
-	got.ConfigureProxy(ProxyAll, "https://friendsofgo.tech")
+	got.ConfigureProxy(ProxyAll, "https://haton14.tech")
 	assert.Equal(t, expected, got)
 }

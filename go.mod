@@ -1,4 +1,4 @@
-module github.com/friendsofgo/killgrave
+module github.com/haton14/killgrave
 
 go 1.20
 

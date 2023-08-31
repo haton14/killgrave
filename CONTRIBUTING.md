@@ -16,7 +16,7 @@ Also, we share announcements related with the tool on this channel.
 
 ### Filing a bug report or feature request
 
-Before filing an issue, please check the existing [issues](https://github.com/friendsofgo/killgrave/issues) to see if a similar one was already opened. If there is one already opened, feel free to comment on it.
+Before filing an issue, please check the existing [issues](https://github.com/haton14/killgrave/issues) to see if a similar one was already opened. If there is one already opened, feel free to comment on it.
 
 If you believe you've found a bug, please provide detailed steps of reproduction, the version of Killgrave, the imposters that are involved and anything else you believe will be useful to help troubleshoot it (e.g. OS environment, config file, flags, etc...). Also, state the current behavior vs. the expected behavior.
 
@@ -25,12 +25,12 @@ discuss with the community about the new features on the [#killgrave slack chann
 
 ### Working on issues
 
-Killgrave releases work using [milestones](https://github.com/friendsofgo/killgrave/milestones), if you see that some issue doesn't have
+Killgrave releases work using [milestones](https://github.com/haton14/killgrave/milestones), if you see that some issue doesn't have
 any milestone it is possible that the issue has not been reviewed yet by any maintainer or the issue could be integrated in master 
 without any impact, ie. a typo fix on the README.
 
-Each milestone has his own [branch](https://github.com/friendsofgo/killgrave/branches), so you will need to wait until the issue has been assigned to a milestone before you start your work, because you will need to base your changes on that branch.
+Each milestone has his own [branch](https://github.com/haton14/killgrave/branches), so you will need to wait until the issue has been assigned to a milestone before you start your work, because you will need to base your changes on that branch.
 
 Before you start, please ask in the issue if you can take it and request for a milestone if no milestone has been assigned yet.
 
-Now, you are ready to contribute to make Killgrave the best mock tool in the world! [Fork Killgrave](https://github.com/friendsofgo/killgrave/fork) and start!!
+Now, you are ready to contribute to make Killgrave the best mock tool in the world! [Fork Killgrave](https://github.com/haton14/killgrave/fork) and start!!

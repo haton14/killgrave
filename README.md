@@ -6,14 +6,14 @@
 
 Killgrave is a simulator for HTTP-based APIs, in simple words a **Mock Server**, very easy to use, made in **Go**.
 
-![Github actions](https://github.com/friendsofgo/killgrave/actions/workflows/main.yaml/badge.svg?branch=main)
-[![Version](https://img.shields.io/github/release/friendsofgo/killgrave.svg?style=flat-square)](https://github.com/friendsofgo/killgrave/releases/latest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/friendsofgo/killgrave)](https://goreportcard.com/report/github.com/friendsofgo/killgrave)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/friendsofgo/killgrave.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/friendsofgo/killgrave/alerts/)
-[![FriendsOfGo](https://img.shields.io/badge/powered%20by-Friends%20of%20Go-73D7E2.svg)](https://friendsofgo.tech)
+![Github actions](https://github.com/haton14/killgrave/actions/workflows/main.yaml/badge.svg?branch=main)
+[![Version](https://img.shields.io/github/release/haton14/killgrave.svg?style=flat-square)](https://github.com/haton14/killgrave/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/haton14/killgrave)](https://goreportcard.com/report/github.com/haton14/killgrave)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/haton14/killgrave.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/haton14/killgrave/alerts/)
+[![FriendsOfGo](https://img.shields.io/badge/powered%20by-Friends%20of%20Go-73D7E2.svg)](https://haton14.tech)
 
 <p>
-<a href="https://www.buymeacoffee.com/friendsofgo" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: 100px !important;" ></a>
+<a href="https://www.buymeacoffee.com/haton14" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: 100px !important;" ></a>
 </p>
 
 # Table of Content
@@ -92,11 +92,11 @@ If you are a Mac user, you can install Killgrave using [Homebrew](https://brew.s
 $ brew install friendsofgo/tap/killgrave
 ```
 
-:warning:  If you are installing via Homebrew, you always get the [latest Killgrave version](https://github.com/friendsofgo/killgrave/releases), we hope to fix this soon.
+:warning:  If you are installing via Homebrew, you always get the [latest Killgrave version](https://github.com/haton14/killgrave/releases), we hope to fix this soon.
 
 ### Docker
 
-The application is also available through [Docker](https://hub.docker.com/r/friendsofgo/killgrave).
+The application is also available through [Docker](https://hub.docker.com/r/haton14/killgrave).
 
 ```bash
 docker run -it --rm -p 3000:3000 -v $PWD/:/home -w /home friendsofgo/killgrave -host 0.0.0.0
@@ -127,7 +127,7 @@ to compile the software because parameters such as `version` are added to the co
 
 ### Other
 
-Windows and Linux users can download binaries from the [Github Releases](https://github.com/friendsofgo/killgrave/releases) page.
+Windows and Linux users can download binaries from the [Github Releases](https://github.com/haton14/killgrave/releases) page.
 
 ## Getting Started
 
@@ -576,4 +576,4 @@ In the following example, we have defined multiple imposters for the `POST /goph
 [Contributions](CONTRIBUTING.md) are more than welcome, if you are interested please follow our guidelines to help you get started.
 
 ## License
-MIT License, see [LICENSE](https://github.com/friendsofgo/killgrave/blob/main/LICENSE)
+MIT License, see [LICENSE](https://github.com/haton14/killgrave/blob/main/LICENSE)

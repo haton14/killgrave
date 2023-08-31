@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/friendsofgo/killgrave/internal/app"
+	"github.com/haton14/killgrave/internal/app"
 )
 
 func main() {

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	killgrave "github.com/friendsofgo/killgrave/internal"
 	"github.com/gorilla/mux"
+	killgrave "github.com/haton14/killgrave/internal"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 )

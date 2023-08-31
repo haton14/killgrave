@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"os"
 
-	killgrave "github.com/friendsofgo/killgrave/internal"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
+	killgrave "github.com/haton14/killgrave/internal"
 )
 
 //go:embed cert/server.key

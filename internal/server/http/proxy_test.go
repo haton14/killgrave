@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	killgrave "github.com/friendsofgo/killgrave/internal"
+	killgrave "github.com/haton14/killgrave/internal"
 	"github.com/stretchr/testify/assert"
 )
 

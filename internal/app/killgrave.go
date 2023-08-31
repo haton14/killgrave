@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/friendsofgo/killgrave/internal/app/cmd"
+	"github.com/haton14/killgrave/internal/app/cmd"
 )
 
 // Run creates and executes new killgrave command

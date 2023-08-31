@@ -9,10 +9,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	killgrave "github.com/friendsofgo/killgrave/internal"
-	server "github.com/friendsofgo/killgrave/internal/server/http"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
+	killgrave "github.com/haton14/killgrave/internal"
+	server "github.com/haton14/killgrave/internal/server/http"
 	"github.com/radovskyb/watcher"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"

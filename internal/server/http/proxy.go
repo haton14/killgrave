@@ -5,7 +5,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	killgrave "github.com/friendsofgo/killgrave/internal"
+	killgrave "github.com/haton14/killgrave/internal"
 )
 
 // Proxy represent reverse proxy server.
