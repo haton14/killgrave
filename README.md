@@ -17,27 +17,35 @@ Killgrave is a simulator for HTTP-based APIs, in simple words a **Mock Server**,
 </p>
 
 # Table of Content
-- [Overview](#overview)
-- [Concepts](#concepts)
-    * [Imposters](#imposters)
-- [Installing](#installing)
-    * [Homebrew](#homebrew)
-    * [Docker](#docker)
-    * [Compile by yourself](#compile-by-yourself)
-    * [Other](#other)
-- [Getting Started](#getting-started)
-    * [Using Killgrave by command line](#using-killgrave-from-the-command-line)
-    * [Using Killgrave by config file](#using-killgrave-by-config-file)
-    * [Configure CORS](#configure-cors)
-    * [Preparing Killgrave for Proxy Mode](#preparing-killgrave-for-proxy-mode)
-    * [Creating an Imposter](#creating-an-imposter)
-    * [Imposters structure](#imposters-structure)
-    * [Using regex in imposters](#using-regex-in-imposters)
-    * [Creating an imposter using JSON Schema](#creating-an-imposter-using-json-schema)
-    * [Creating an imposter with delay](#creating-an-imposter-with-delay)
-    * [Creating an imposter with dynamic responses](#creating-an-imposter-with-dynamic-responses)
-- [Contributing](#contributing)
-- [License](#license)
+- [Killgrave](#killgrave)
+- [Table of Content](#table-of-content)
+  - [Overview](#overview)
+  - [Concepts](#concepts)
+    - [Imposters](#imposters)
+  - [Installing](#installing)
+    - [Homebrew](#homebrew)
+    - [Docker](#docker)
+    - [Compile by yourself](#compile-by-yourself)
+    - [Other](#other)
+  - [Getting Started](#getting-started)
+    - [Using Killgrave from the command line](#using-killgrave-from-the-command-line)
+    - [Using Killgrave by config file](#using-killgrave-by-config-file)
+  - [How to use](#how-to-use)
+    - [Configure CORS](#configure-cors)
+    - [Preparing Killgrave for Proxy Mode](#preparing-killgrave-for-proxy-mode)
+    - [Creating an Imposter](#creating-an-imposter)
+    - [Imposters Structure](#imposters-structure)
+      - [Request](#request)
+      - [Response](#response)
+    - [Using regex in imposters](#using-regex-in-imposters)
+      - [Regex in the endpoint](#regex-in-the-endpoint)
+      - [Regex in the query parameters:](#regex-in-the-query-parameters)
+      - [Regex in the headers:](#regex-in-the-headers)
+    - [Creating an imposter using JSON Schema](#creating-an-imposter-using-json-schema)
+    - [Creating an imposter with delay](#creating-an-imposter-with-delay)
+    - [Creating an imposter with dynamic responses](#creating-an-imposter-with-dynamic-responses)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Overview
 
@@ -185,7 +193,6 @@ cors:
   exposed_headers: ["Cache-Control"]
   origins: ["*"]
   allow_credentials: true
-watcher: true
 secure: true
 ```
 
